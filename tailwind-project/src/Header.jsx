@@ -2,11 +2,14 @@ import { useState } from "react";
 
 function Header() {
   return (
-    <div className="h-20 bg-gray-100">
-      <ul className="flex gap-3">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+    <div className="h-20 flex justify-between items-center container mx-auto">
+      <img src="./logo.png" alt="" />
+      <ul className="flex gap-5">
+        <li className="cursor-pointer">Home</li>
+        <li className="cursor-pointer">Find Doctor</li>
+        <li className="cursor-pointer">App</li>
+        <li className="cursor-pointer">Testimonials</li>
+        <li className="cursor-pointer">About us</li>
       </ul>
     </div>
   );

@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-function App() {
+function Wrapper() {
   return (
-    <div className="container  md:mx-auto ">
+    <div className="container mx-auto 2xl:px-16">
       <div className="md:grid grid-cols-2 items-center">
         <div className="flex flex-col gap-5 max-w-md md:items-start items-center ">
           <h1 className="text-5xl font-bold text-center md:text-start">
@@ -37,4 +37,4 @@ function App() {
   );
 }
 
-export default App;
+export default Wrapper;
